@@ -2,59 +2,58 @@ import { ExperienceSection } from '../../assets/styles';
 
 const experienceData = [
   {
-    role: "Research Assistant",
-    company: "Federal University of Agriculture, Abeokuta",
+    role: "Data Science Tutor",
+    company: "DeepTech_Ready Program",
     duration: "Sept 2024 - Present",
-    tags: ["Solar Tracking", "Energy Optimization", "Research"],
-    description: "Developing a dual-axis solar tracking system for energy optimization.",
+    tags: ["Computer Vision", "GenAI", "RAG", "LLM"],
+    description: "Fostered an engaging learning environment to enhance understanding and application of advanced AI topics",
     achievements: [
-      "Co-authoring a paper under review",
-      "Designed and implemented the tracking system",
-      "Collaborated on renewable energy solutions"
+      "Provided comprehensive tutoring on computer vision concept",
+      "Educated learners on generative AI, focusing on the RAG"
     ],
     // links: [
     //   { text: "Research Details", url: "#" }
     // ]
   },
   {
-    role: "Independent Researcher",
-    company: "ML Collective",
-    duration: "Oct 2024 - Present",
-    tags: ["Medical Imaging", "Explainable AI", "Deep Learning"],
-    description: "Researching deep learning in medical imaging and explainable AI.",
+    role: "Junior Data Scientist",
+    company: "Pariti",
+    duration: "Nov 2024 - April 2025",
+    tags: ["EDA", "NLP", "LLM"],
+    description: "Built an LLM-based recruitment chatbot, automated email processes with Zapier",
     achievements: [
-      "Enhanced diagnostic tools through research",
-      "Explored advanced explainable AI techniques",
-      "Shared knowledge with fellow researchers"
+      "Developed a chatbot using LLM to assist users with recruitment inquiries",
+      "Automated email workflows with Zapier",
+      "Created an interactive salary-benchmarking dashboard"
     ],
     // links: [
     //   { text: "ML Collective Overview", url: "#" }
     // ]
   },
   {
-    role: "Student Industrial Work Experience Scheme (SIWES)",
-    company: "Cakasa Engineering Services Limited",
-    duration: "Aug 2024 - Oct 2024",
-    tags: ["AutoCAD", "AVEVA", "Industrial Design"],
-    description: "Designed industrial projects using AutoCAD and AVEVA.",
+    role: "Data Science Intern",
+    company: "Pariti",
+    duration: "Aug 2024 - Nov 2024",
+    tags: ["LLM", "Embeddings", "KPI"],
+    description: "Analyzed large datasets, built KPI dashboards, and applied machine learning models to support data-driven business decisions.",
     achievements: [
-      "Completed detailed industrial designs",
-      "Learned ML concepts for engineering",
-      "Improved interdisciplinary tech understanding"
+      "Analyzed and interpreted large datasets",
+      "Developed and maintained KPI dashboards",
+      "Applied machine learning models to address the business needs"
     ],
     // links: [
     //   { text: "Cakasa Engineering Services", url: "#" }
     // ]
   },
   {
-    role: "Frontend Engineering Intern",
-    company: "Credo",
-    duration: "Aug 2023 - Mar 2024",
-    tags: ["Frontend Development", "React", "Web Optimization"],
+    role: "AI/ML Intern",
+    company: "Strategies and Yields Limited (SYL)",
+    duration: "June 2024 - Nov 2024",
+    tags: ["Machine Learningt", "Data Science"],
     description: "Developed responsive websites and optimized web applications.",
     achievements: [
-      "Built scalable, accessible web solutions",
-      "Improved website performance",
+      "Contributed to the development of Qknows, a chatbot designed to meet the specific needs of Africans, enhancing user engagement and functionality.",
+      "Taught data science concepts to students enrolled in the company’s academy",
       "Worked with a diverse development team"
     ],
     // links: [

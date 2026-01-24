@@ -1,38 +1,29 @@
 import { HeroContainer } from "../../assets/styles"
-import profile from "../../assets/img/prof_pic3.jpeg"
+import profile from "../../assets/img/Aramide 2.jpg"
 
 const Hero = () => {
   return (
     <HeroContainer id="hero">
-      <h1>Ilerioluwakiiye Abolade</h1>
+      <h1>Aramide Adebesin</h1>
       <div className="hero-content">
         <div className="hero-text">
           <div className="social-links">
-            <a href="mailto:aboladeilerioluwakiiye@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href="https://drive.google.com/file/d/1TyEKdL7yQ_z4Q6LoDdpCxnb5HUSmO9ry/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
-            <a href="https://github.com/ileri-oluwa-kiiye" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/ilerioluwakiiye" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://twitter.com/llerioluwakiiye" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="mailto:adebesinaramide@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+            <a href="https://drive.google.com/file/d/1mVC6tE--AsPHkXCvm1VipPZ76Hxiq1qE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="https://github.com/Adebesin-Aramide" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/aramide-adebesin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://x.com/hara__myde" target="_blank" rel="noopener noreferrer">Twitter</a>
           </div>
           
           <p>
-            I am Ilerioluwakiiye Abolade, a final-year Mechatronics Engineering student at the 
-            Federal University of Agriculture, Abeokuta, Nigeria, and an independent researcher at 
+            I am Aramide Adebesin, a graduate of Mathematics from Obafemi Awolowo University, Ile-Ife, Nigeria, and an independent researcher at 
             <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer"> ML Collective</a>, 
             an open science community for self-driven AI researchers. 
-            I was also recently a Research Fellow at 
-            <a href="https://event.fourwaves.com/spark/pages" target="_blank" rel="noopener noreferrer"> SPARK Academy</a>, 
-             supervised by 
-             <a href="https://www.med.upenn.edu/globalhealth/maruf-adewole-phd.html" target="_blank" rel="noopener noreferrer"> Dr. Maruf Adewole </a> 
-             and 
-            <a href="https://www.mcgill.ca/neuro/udunna-anazodo-phd" target="_blank" rel="noopener noreferrer"> Prof. Udunna Anazodo</a>.
+            I am passionate about leveraging machine learning to address challenges in healthcare, particularly in resource-constrained environments.
           </p>
 
           <p>
-            My research lies at the intersection of deep learning and medical imaging, with a focus on 
-            domain adaptation, robustness, and fairness in low-resource healthcare settings. 
-            I aim to make medical AI models more reliable and accessible across diverse 
-            populations and imaging conditions.
+            My research interests include Computer Vision, Natural Language Processing and its applications in healthcare. I am dedicated to advancing AI technologies that can improve healthcare outcomes and accessibility for underserved populations.
           </p>
         </div>
         <div className="hero-image">

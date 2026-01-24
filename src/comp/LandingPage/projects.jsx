@@ -1,59 +1,58 @@
 import { useState } from 'react';
 import { ProjectsSection } from '../../assets/styles';
-import image2 from "../../assets/img/project_2.jpeg"
-import image3 from "../../assets/img/project_3.jpeg"
-import image1 from "../../assets/img/project_1.png"
+import image2 from "../../assets/img/proj1.png"
+import image3 from "../../assets/img/proj2.png"
+import image1 from "../../assets/img/proj3.png"
 
 
 const projectsData = [
     {
-      title: "Maternify",
-      category: "Machine Learning",
-      thumbnail: image1, 
-      tags: ["NLP", "Python", 'Azure'],
+      title: "MediVoice: Multimodal AI for Accessible Medication Management:",
+      category: "GenAI",
+      thumbnail: image2, 
+      tags: ["NLP", "Python", 'Huggingface'],
       description:
-        "A website with an ML-powered chatbot providing personalized prenatal care and maternal health information. Recognized as a top AI project by Microsoft Student Ambassadors for Q1 2024.",
+        "MediVoice is a voice-based mobile app that helps visually impaired people manage their medications on their own. With this app, users can take a picture of a drug label and ask questions by speaking.",
       highlights: [
-        "Improved healthcare access and reduced misinformation",
-        "Featured as a top AI project",
-        "Built with NLP techniques"
+        "Improved medication access for visually impaired",
+        "Presented it as a poster at DLI 2025",
+        "Developed it into a research paper"
       ],
       links: {
-        github: "https://github.com/Teebarh/innovateHER", 
+        github: "https://github.com/Adebesin-Aramide/Medivoice", 
         // article: "https://medium.com/maternify-article" 
       }
     },
     {
-      title: "Petfinder Adoption Prediction Model",
-      category: "Machine Learning",
-      thumbnail: image2, 
-      tags: ["Python", "Scikit-learn", "Pandas"],
+      title: "Foodie Lens - Yoruba Traditional Dishes Identification App:",
+      category: "Deep Learning",
+      thumbnail: image3, 
+      tags: ["Python", "Computer Vision", "Streamlit"],
       description:
-        "A machine learning model predicting pet adoption speed using data preprocessing, feature engineering, and model optimization.",
+        "Foodie Lens is a machine learning-based application designed to identify various traditional Yoruba dishes from images and provide the corresponding recipes and cooking instructions",
       highlights: [
-        "Achieved high accuracy in adoption speed predictions",
-        "Improved insights for pet adoption agencies",
-        "Utilized advanced model optimization techniques"
+        "Achieved high accuracy in classification",
+        "Curated food dataset as a result of this projet",
+        "Presented it as a poster at DSN AI Bootcamp 2024 and won second best poster award"
       ],
       links: {
-        github: "https://github.com/ileri-oluwa-kiiye/pet", 
-        // article: "https://medium.com/petfinder-adoption-prediction" 
+        github: "https://github.com/Adebesin-Aramide/Foodie_lens", 
+        website: "https://huggingface.co/spaces/Aramide/foodie_lens" 
       }
     },
     {
-      title: "Cassava Leaf Disease Classification",
+      title: "UlcerMate: AI-Powered Ulcer Management System",
       category: "Machine Learning",
-      thumbnail: image3, 
-      tags: ["Python", "TensorFlow", "Keras"],
+      thumbnail: image1, 
+      tags: ["Python", "Scikit learn", "ML"],
       description:
-        "A machine learning model designed to classify cassava leaf diseases using transfer learning and data augmentation techniques.",
+        "UlcerMate is an AI-powered app that helps users log meals, symptoms, and medications to identify personal ulcer triggers and detect risk patterns.",
       highlights: [
-        "Accurately classified multiple disease types",
-        "Leveraged transfer learning for improved performance",
-        "Enhanced agricultural disease detection"
+        "Improved healthcare for ulcer patient",
+        "used real data from actual ulcer patients to train the model"
       ],
       links: {
-        github: "https://colab.research.google.com/drive/1jktVsQ2DST64qhclTNNE8jNg-zeQf842?usp=sharing", 
+        github: "https://github.com/Adebesin-Aramide/Ulcer_Management_System", 
         // article: "https://medium.com/cassava-leaf-disease" 
       }
     }

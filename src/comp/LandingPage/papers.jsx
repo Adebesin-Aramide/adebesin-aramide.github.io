@@ -3,51 +3,12 @@ import { PapersSection } from "../../assets/styles";
 const papers = [
   {
     id: 4,
-    title: "VAMAE: Vessel-Aware Masked Autoencoders for OCT-Angiography",
-    authors: "Abolade, I., Mireku, P., Chibundu, K., Ododo, P., Idoko, E., Omoigui, P., & Odelola, S.",
-    venue: "ICPR 2026, In review",
+    title: "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá",
+    authors: "Adebesin, A., Tairu, Z.",
+    venue: "EACL 2026, In review",
     year: "2025",
     links: []
   },
-  {
-    id: 2,
-    title: "Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI",
-    authors: "Abolade, I., Udo, A., Ojo, A., Oyetunji, A., Ajigbotosho, H., Iorumbur, A., Raymond, C., & Adewole, M.",
-    venue: "ISBI 2026, In review",
-    year: "2025",
-    links: [
-      {
-        text: "Preprint",
-        url: "https://arxiv.org/abs/2511.02928"
-      }
-    ]
-  },
-  {
-    id: 1,
-    title: "Addressing Domain Shift in Low-Resource Neuroimaging: Glioma Segmentation for Sub-Saharan MRI",
-    authors: "Abolade, I.",
-    venue: "WiML @ NeurIPS",
-    year: "2025",
-    links: [
-      {
-        text: "OpenReview",
-        url: "https://openreview.net/forum?id=4VzB93HogD"
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: "SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays",
-    authors: "Abolade, I., Idoko, E., Odelola, S., Omoigui, P., Adebanwo, A., Iorumbur, A., Anazodo, U., Crimi, A., & Confidence, R.",
-    venue: "MIRASOL @ MICCAI, Best Paper Runner-up (Springer LNCS)",
-    year: "2025",
-    links: [
-      {
-        text: "Preprint",
-        url: "https://arxiv.org/abs/2508.08518"
-      }
-    ]
-  }
 ];
 
 const Papers = () => {
