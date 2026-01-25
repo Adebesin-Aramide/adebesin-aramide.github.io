@@ -37,7 +37,7 @@ const blogPosts = [
       // publication: "Personal Blog",
       date: "Nov 1, 2024",
       readTime: "8 min read",
-      image: blog3,
+      image: blog2,
       content: "A personal reflection on the intensive learning and the lasting impact of attending the DSN AI 2024 Bootcamp, describing the skills gained and experiences that shaped my data science journey",
       links: [
         {

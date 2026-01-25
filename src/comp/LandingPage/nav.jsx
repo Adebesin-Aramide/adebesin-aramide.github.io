@@ -90,7 +90,7 @@ const Nav = () => {
           to="/"
           className={location.pathname === '/' && activeSection === 'projects' ? 'active' : ''}
           onClick={() => {
-            if (location.pathname === '/') {scrollToSection('projecs');
+            if (location.pathname === '/') {scrollToSection('projects');
           }
           }}
           >
