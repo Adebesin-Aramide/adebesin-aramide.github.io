@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <div className="social-links">
             <a href="mailto:adebesinaramide@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href="https://drive.google.com/file/d/1mVC6tE--AsPHkXCvm1VipPZ76Hxiq1qE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="https://drive.google.com/file/d/1UkfpjLULR7euaiwncqLWPHUXafKE7Gim/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/Adebesin-Aramide" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/aramide-adebesin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://x.com/hara__myde" target="_blank" rel="noopener noreferrer">Twitter</a>
