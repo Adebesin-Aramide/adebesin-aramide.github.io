@@ -5,8 +5,8 @@ const papers = [
     id: 4,
     title: "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá",
     authors: "Adebesin, A., Tairu, Z.",
-    venue: "EACL 2026, In review",
-    year: "2025",
+    venue: "LoResLM @ EACL 2026",
+    year: "2026",
     links: []
   },
 ];
