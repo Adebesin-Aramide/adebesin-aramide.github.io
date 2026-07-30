@@ -9,12 +9,12 @@ const Hero = () => {
         <div className="hero-text">
           <div className="social-links">
             <a href="mailto:adebesinaramide@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href="https://drive.google.com/drive/folders/1ltCNxCalYv1OQ7IYLcKapnK_055dc8xB" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="https://drive.google.com/file/d/1zfo1qMiF0SwVEHC4IYKH-d2EmVARPGu3/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/Adebesin-Aramide" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/aramide-adebesin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://x.com/hara__myde" target="_blank" rel="noopener noreferrer">Twitter</a>
           </div>
-          
+        
           <p>
             I am Aramide Adebesin, a graduate of Mathematics from Obafemi Awolowo University, Ile-Ife, Nigeria, and an independent researcher at 
             <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer"> ML Collective</a>, 
