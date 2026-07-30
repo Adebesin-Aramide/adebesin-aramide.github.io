@@ -74,7 +74,7 @@ const experienceData = [
     role: "AI/ML Intern",
     company: "Strategies and Yields Limited (SYL)",
     duration: "June 2024 - Nov 2024",
-    tags: ["Machine Learningt", "Data Science"],
+    tags: ["Machine Learning", "Data Science"],
     description: "Developed responsive websites and optimized web applications.",
     achievements: [
       "Contributed to the development of Qknows, a chatbot designed to meet the specific needs of Africans, enhancing user engagement and functionality.",
