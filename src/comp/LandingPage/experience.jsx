@@ -47,7 +47,7 @@ const experienceData = [
     description: "Built an LLM-based recruitment chatbot, automated email processes with Zapier",
     achievements: [
       "Developed a chatbot using LLM to assist users with recruitment inquiries",
-      "Working on Large Language Models to improve the process of matching job seekers and vacancies (model selection, finetuning, deployment)",
+      "Worked on Large Language Models to improve the process of matching job seekers and vacancies (model selection, finetuning, deployment)",
       "Automated email workflows with Zapier"
   
     ],
