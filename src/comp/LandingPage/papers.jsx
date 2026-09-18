@@ -2,7 +2,7 @@ import { PapersSection } from "../../assets/styles";
 
 const papers = [
   {
-    id: 1,
+    id: 3,
     title: "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá",
     authors: "Adebesin, A., Tairu, Z.",
     venue: "LoResLM @ EACL 2026",
@@ -24,7 +24,7 @@ const papers = [
   },
 
   {
-    id: 3,
+    id: 1,
     title: "NoiseLens Evaluating Denoising for Diagnostic Information Preservation in Breast Ultrasound Imaging",
     authors: "Adebesin, A., Tairu, Z.",
     venue: "WiML @ NeurIPS 2026",
