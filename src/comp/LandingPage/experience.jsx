@@ -1,9 +1,14 @@
 import { ExperienceSection } from '../../assets/styles';
+import image2 from "../../assets/img/deeptech_logo.png"
+import image3 from "../../assets/img/karimi_talent_matching_logo.png"
+import image1 from "../../assets/img/pariti_logo.png"
+import image4 from "../../assets/img/spark_academy_logo.png"
 
 const experienceData = [
    {
     role: "Data Scientist",
     company: "Karimi Talent",
+    logo: image3,
     duration: "Nov 2025 - Present",
     tags: ["Recommender Systems", "GenAI", "RAG", "LLM"],
     description: "Developed LLMs for Recommendation Systems in the Talent space",
@@ -16,7 +21,8 @@ const experienceData = [
    {
     role: "Research Fellow",
     company: "SPARK (MICCAI-Endorsed Academy for African Medical Imaging Translation)",
-    duration: "Feb 2026 - June 2026",
+    logo: image4,
+    duration: "Feb 2026 - Aug 2026",
     tags: ["Medical Imaging", "Computer Vision", "Healthcare", "Deep Learning"],
     description: "Led a six-person team on a cervical cancer screening study using a Nigerian colposcopy dataset",
     achievements: [
@@ -28,7 +34,8 @@ const experienceData = [
   {
     role: "Data Science Tutor",
     company: "DeepTech_Ready Program",
-    duration: "Sept 2024 - Present",
+    logo: image2,
+    duration: "Sept 2024 - Dec 2025",
     tags: ["Computer Vision", "GenAI", "RAG", "LLM"],
     description: "Fostered an engaging learning environment to enhance understanding and application of advanced AI topics",
     achievements: [
@@ -42,6 +49,7 @@ const experienceData = [
   {
     role: "Junior Data Scientist",
     company: "Pariti",
+    logo: image1,
     duration: "Nov 2024 - April 2025",
     tags: ["EDA", "NLP", "LLM"],
     description: "Built an LLM-based recruitment chatbot, automated email processes with Zapier",
@@ -55,36 +63,35 @@ const experienceData = [
     //   { text: "ML Collective Overview", url: "#" }
     // ]
   },
-  {
-    role: "Data Science Intern",
-    company: "Pariti",
-    duration: "Aug 2024 - Nov 2024",
-    tags: ["LLM", "Embeddings", "KPI"],
-    description: "Analyzed large datasets, built KPI dashboards, and applied machine learning models to support data-driven business decisions.",
-    achievements: [
-      "Analyzed and interpreted large datasets",
-      "Developed and maintained KPI dashboards",
-      "Applied machine learning models to address the business needs"
-    ],
+  // {
+  //   role: "Data Science Intern",
+  //   company: "Pariti",
+  //   duration: "Aug 2024 - Nov 2024",
+  //   tags: ["LLM", "Embeddings", "KPI"],
+  //   description: "Analyzed large datasets, built KPI dashboards, and applied machine learning models to support data-driven business decisions.",
+  //   achievements: [
+  //     "Analyzed and interpreted large datasets",
+  //     "Developed and maintained KPI dashboards",
+  //     "Applied machine learning models to address the business needs"
+  //   ],
     // links: [
     //   { text: "Cakasa Engineering Services", url: "#" }
     // ]
-  },
-  {
-    role: "AI/ML Intern",
-    company: "Strategies and Yields Limited (SYL)",
-    duration: "June 2024 - Nov 2024",
-    tags: ["Machine Learning", "Data Science"],
-    description: "Developed responsive websites and optimized web applications.",
-    achievements: [
-      "Contributed to the development of Qknows, a chatbot designed to meet the specific needs of Africans, enhancing user engagement and functionality.",
-      "Taught data science concepts to students enrolled in the company’s academy",
-      "Worked with a diverse development team"
-    ],
-    // links: [
-    //   { text: "Credo Projects", url: "#" }
-    // ]
-  }
+  // {
+  //   role: "AI/ML Intern",
+  //   company: "Strategies and Yields Limited (SYL)",
+  //   duration: "June 2024 - Nov 2024",
+  //   tags: ["Machine Learning", "Data Science"],
+  //   description: "Developed responsive websites and optimized web applications.",
+  //   achievements: [
+  //     "Contributed to the development of Qknows, a chatbot designed to meet the specific needs of Africans, enhancing user engagement and functionality.",
+  //     "Taught data science concepts to students enrolled in the company’s academy",
+  //     "Worked with a diverse development team"
+  //   ],
+  //   // links: [
+  //   //   { text: "Credo Projects", url: "#" }
+  //   // ]
+  // }
 ];
 
 const Experience = () => {
@@ -94,6 +101,7 @@ const Experience = () => {
       <div className="experience-grid">
         {experienceData.map((exp, index) => (
           <div key={index} className="experience-card">
+            <img src={exp.logo} alt={exp.company} className="company-logo" />
             <h3 className="role">{exp.role}</h3>
             <div className="company">{exp.company}</div>
             <div className="duration">{exp.duration}</div>
