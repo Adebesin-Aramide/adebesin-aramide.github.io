@@ -2,21 +2,36 @@ import { PapersSection } from "../../assets/styles";
 
 const papers = [
   {
-    id: 4,
+    id: 1,
     title: "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá",
     authors: "Adebesin, A., Tairu, Z.",
     venue: "LoResLM @ EACL 2026",
     year: "2026",
-    links: []
+    links: [
+      { text: "ACL Anthology", url: "https://aclanthology.org/2026.loreslm-1.8/" },
+    ]
   },
 
    {
-    id: 4,
+    id: 2,
     title: "Hierarchical Task Framing for Prevention-Oriented Cervical Lesion Detection Using Nigerian Colposcopy Images",
     authors: "Adebesin, A., Ugbo, I., Ogundeji, O., Shiaki, N., Adegoke, S., Shiaki, T., Gbayisomore, T., Iorumbur, A., Raymond, C.",
     venue: "MIRASOL @ MICCAI 2026",
     year: "2026",
-    links: []
+    links: [
+      { text: "OpenReview", url: "https://openreview.net/group?id=MICCAI.org/2026/Workshop/MIRASOL/Authors&referrer=%5BHomepage%5D(%2F)" },
+    ]
+  },
+
+  {
+    id: 3,
+    title: "NoiseLens Evaluating Denoising for Diagnostic Information Preservation in Breast Ultrasound Imaging",
+    authors: "Adebesin, A., Tairu, Z.",
+    venue: "WiML @ NeurIPS 2026",
+    year: "2026",
+    links: [
+      { text: "OpenReview", url: "https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/WiML/Authors#your-submissions" },
+    ]
   },
 ];
 
