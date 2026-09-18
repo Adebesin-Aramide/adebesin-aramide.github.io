@@ -1,14 +1,15 @@
 import { PapersSection } from "../../assets/styles";
 
 const papers = [
-  {
-    id: 3,
-    title: "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá",
+
+   {
+    id: 1,
+    title: "NoiseLens Evaluating Denoising for Diagnostic Information Preservation in Breast Ultrasound Imaging",
     authors: "Adebesin, A., Tairu, Z.",
-    venue: "LoResLM @ EACL 2026",
+    venue: "WiML @ NeurIPS 2026",
     year: "2026",
     links: [
-      { text: "ACL Anthology", url: "https://aclanthology.org/2026.loreslm-1.8/" },
+      { text: "OpenReview", url: "https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/WiML/Authors#your-submissions" },
     ]
   },
 
@@ -23,14 +24,14 @@ const papers = [
     ]
   },
 
-  {
-    id: 1,
-    title: "NoiseLens Evaluating Denoising for Diagnostic Information Preservation in Breast Ultrasound Imaging",
+   {
+    id: 3,
+    title: "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá",
     authors: "Adebesin, A., Tairu, Z.",
-    venue: "WiML @ NeurIPS 2026",
+    venue: "LoResLM @ EACL 2026",
     year: "2026",
     links: [
-      { text: "OpenReview", url: "https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/WiML/Authors#your-submissions" },
+      { text: "ACL Anthology", url: "https://aclanthology.org/2026.loreslm-1.8/" },
     ]
   },
 ];
