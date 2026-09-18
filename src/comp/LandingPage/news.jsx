@@ -3,6 +3,119 @@ import { NewsSection } from "../../assets/styles";
 const newsItems = [
   {
     id: 2,
+    date: "Sept 2026",
+    description: (
+      <>
+        Our paper "NoiseLens Evaluating Denoising for Diagnostic Information Preservation in Breast Ultrasound Imaging" was accepted to <a
+          href="https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2026/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >  WiML @ NeurIPS 2026</a>. This research was conducted in collaboration with <a
+          href="https://www.linkedin.com/in/zainab-tairu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Zainab Tairu</a> 
+      </>
+    ),
+  },
+
+   {
+    id: 2,
+    date: "Aug 2026",
+    description: (
+      <>
+        Our paper "Hierarchical Task Framing for Prevention-Oriented Cervical Lesion Detection Using Nigerian Colposcopy Images" was accepted at the <a
+          href="https://mirasol.rise-miccai.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >  MICCAI MIRASOL Workshop!</a> I led this research as the lead for the Team Nigeria South-West at 
+        <a
+          href="https://event.fourwaves.com/spark"
+          target="_blank"
+          rel="noopener noreferrer"
+        >  SPARK Academy</a> 
+      </>
+    ),
+  },
+
+    {
+    id: 2,
+    date: "Aug 2026",
+    description: (
+      <>
+        I was selected to attend <a
+          href="https://www.linkedin.com/company/deep-learning-indaba/posts/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Deep Learning Indaba 2026</a>, at the  <a
+          href="https://www.linkedin.com/school/pan-atlantic-university/home/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Pan-Atlantic University (PAU)</a>, in Lagos, Nigeria making it my third time attending the conference.
+      </>
+    ),
+  },
+
+  {
+    id: 2,
+    date: "June 2026",
+    description: (
+      <>
+        I represented <a
+          href="https://www.linkedin.com/company/karimi-talent/posts/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Karimi Talent</a>, at the  <a
+          href="https://lnkd.in/p/eUfBhVhk"
+          target="_blank"
+          rel="noopener noreferrer"
+        > OAU Career Fair and Workforce Conference</a>, alongside <a
+          href="https://www.linkedin.com/in/tobi-komolafe/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Tobi Komolafe</a>, where we spoke to students about how Karimi helps them find jobs and internships that actually fit.
+      </>
+    ),
+  },
+
+    {
+    id: 2,
+    date: "April 2026",
+    description: (
+      <>
+        I was invited for a fireside chat by <a
+          href="https://www.linkedin.com/company/sca-oau/posts/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > SheCode Africa OAU</a>, in celebration of the <a
+          href="https://lnkd.in/p/enx4BDhv"
+          target="_blank"
+          rel="noopener noreferrer"
+        > International Women's Day (IWD) Summit</a>, where I spoke on "The Journey Behind the Title: Lessons, Setbacks, and Becoming in Tech."
+      </>
+    ),
+  },
+
+  {
+    id: 2,
+    date: "Feb 2026",
+    description: (
+      <>
+        My first paper "Evaluating Retrieval-Augmented Generation for Medication Question Answering on Nigerian Drug Labels in Yorùbá" was accepted at the<a
+          href="https://aclanthology.org/2026.loreslm-1.8/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >  LoResLM workshop at EACL</a>. This research was conducted in collaboration with <a
+          href="https://www.linkedin.com/in/zainab-tairu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Zainab Tairu</a>.
+      </>
+    ),
+  },
+
+  {
+    id: 2,
     date: "Aug 2025",
     description: (
       <>

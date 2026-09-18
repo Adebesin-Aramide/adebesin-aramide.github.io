@@ -5,7 +5,7 @@ const FooterComponent = () => {
     <Footer>
       <p>
         © Copyright {new Date().getFullYear()} Aramide Adebesin. 
-        Last updated: January 24, 2026.
+        Last updated: Sept, 2026.
       </p>
     </Footer>
   );
