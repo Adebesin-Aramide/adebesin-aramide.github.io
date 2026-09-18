@@ -1,8 +1,8 @@
 import { ExperienceSection } from '../../assets/styles';
-import image2 from "../../assets/img/deeptech_logo.png"
-import image3 from "../../assets/img/karimi_talent_matching_logo.png"
-import image1 from "../../assets/img/pariti_logo.png"
-import image4 from "../../assets/img/spark_academy_logo.png"
+import image2 from "../../assets/img/deeptech_logo.jpg"
+import image3 from "../../assets/img/karimi_talent_matching_logo.jpg"
+import image1 from "../../assets/img/pariti_logo.jpg"
+import image4 from "../../assets/img/spark_academy_logo.jpg"
 
 const experienceData = [
    {
@@ -101,9 +101,13 @@ const Experience = () => {
       <div className="experience-grid">
         {experienceData.map((exp, index) => (
           <div key={index} className="experience-card">
-            <img src={exp.logo} alt={exp.company} className="company-logo" />
             <h3 className="role">{exp.role}</h3>
-            <div className="company">{exp.company}</div>
+            <div className="company">
+              {exp.logo && (
+                <img src={exp.logo} alt={`${exp.company} logo`} className="company-logo" />
+              )}
+              {exp.company}
+            </div>
             <div className="duration">{exp.duration}</div>
             <div className="tags">
               {exp.tags.map((tag, i) => (

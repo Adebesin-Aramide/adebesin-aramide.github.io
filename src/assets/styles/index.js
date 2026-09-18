@@ -532,9 +532,12 @@ export const ExperienceSection = styled.section`
       align-items: center;
       gap: 0.5rem;
 
-      &:before {
-        content: '🏢';
-        font-size: 0.8rem;
+      .company-logo {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+        border-radius: 3px;
+        flex-shrink: 0;
       }
     }
 
@@ -643,18 +646,6 @@ export const ExperienceSection = styled.section`
     .experience-card {
       padding: 1rem;
     }
-    .company-logo {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  border-radius: 6px;
-  background: #fff;
-  padding: 4px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-}
   }
 `;
 
