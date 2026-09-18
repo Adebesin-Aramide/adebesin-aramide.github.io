@@ -7,11 +7,50 @@ import blog3 from "../assets/img/blog3.jpeg"
 import blog4 from "../assets/img/blog4.jpeg"
 import blog5 from "../assets/img/blog5.jpeg"
 import blog6 from "../assets/img/blog6.jpeg"
+import blog7 from "../assets/img/blog7.png"
+import blog8 from "../assets/img/blog8.jpg"
 
 
 
 
 const blogPosts = [
+  {
+      id: 8,
+      title: "Refueled: My Deep Learning Indaba 2026 Experience",
+      excerpt: "This is a recap of my experience at the Deep Learning Indaba 2026, highlighting the key takeaways and insights gained from the event.",
+      author: "Aramide Adebesin",
+      // publication: "AI Mind",
+      date: "Aug 23, 2026",
+      readTime: "6 min read",
+      image: blog8,
+      content: "A recap of my experience at the Deep Learning Indaba 2026, highlighting the key takeaways and insights gained from the event.",
+      links: [
+        {
+          text: "Read on Medium",
+          url: "https://medium.com/@adebesinaramide/refueled-my-deep-learning-indaba-2026-experience-4b1960cd1c1f"
+        }
+      ]
+    },
+
+  {
+      id: 7,
+      title: "Beyond App Categories: Building a Task-Centric Recommendation System of AI apps for the Labour Market",
+      excerpt: "This is a blog written alongside Chiara on our product AI is your New Colleague, we talked about the process of building a task-centric recommendation system of AI apps for the labour market.",
+      author: "Aramide Adebesin and Chiara Stramaccioni",
+      // publication: "AI Mind",
+      date: "Feb 10, 2026",
+      readTime: "8 min read",
+      image: blog7,
+      content: "A blog written alongside Chiara on our product AI is your New Colleague, we talked about the process of building a task-centric recommendation system of AI apps for the labour market.",
+      links: [
+        {
+          text: "Read on Medium",
+          url: "https://medium.com/@karimi_talent/building-a-task-centric-recommendation-system-of-ai-apps-for-the-labour-market-b9250bcad514"
+        }
+      ]
+    },
+
+
     {
       id: 1,
       title: "I lived Through It: A reflection on 2025",
@@ -29,6 +68,7 @@ const blogPosts = [
         }
       ]
     },
+
     {
       id: 2,
       title: "Intensive Learning, Lasting Impact: DSN AI 2024 Bootcamp",
